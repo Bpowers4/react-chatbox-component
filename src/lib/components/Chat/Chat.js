@@ -80,6 +80,9 @@ Chat.propTypes = {
 
 Chat.defaultProps = {
   messages: [],
+  user: {
+    "uid": "user1"
+  },
   isLoading: false,
   onSubmit: (message) => console.log(message)
 };
