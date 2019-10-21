@@ -51,7 +51,7 @@ class App extends React.Component {
     return (
       <div className='container' style={{maxWidth: '800px', paddingTop: '100px'}}>
         <div className='chat-header'>
-          <h5>Chat</h5>
+          <h5>React Chat Box Example</h5>
         </div>
         <ChatBox messages={this.state.messages} />
       </div>
