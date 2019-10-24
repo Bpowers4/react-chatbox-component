@@ -9,6 +9,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       messages: [],
+      user: {},
     };
   }
 
@@ -43,7 +44,11 @@ class App extends React.Component {
       },
     ];
 
-    this.setState({ messages: messages });
+    const user = {
+      "uid": "user1"
+    };
+
+    this.setState({ messages: messages, user: user });
 
   }
 

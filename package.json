@@ -1,6 +1,6 @@
 {
   "name": "react-chatbox-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/nsebhastian/react-chatbox-component.git"
   },
+  "keywords": [
+    "chat component",
+    "react component",
+    "chat box"
+  ],
   "author": "Nathan Sebhastian",
   "license": "MIT",
   "bugs": {
