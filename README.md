@@ -1,4 +1,8 @@
-# Introduction
+# React ChatBox Component
+
+[![GitHub license](https://img.shields.io/github/license/nsebhastian/react-chatbox-component?color=blue&style=flat-square)](https://github.com/nsebhastian/react-chatbox-component/blob/master/LICENSE)
+[![Current stable version](https://img.shields.io/npm/v/react-chatbox-component?color=blue&style=flat-square)](https://www.npmjs.com/package/react-chatbox-component)
+[![Pull Requests are welcome](https://img.shields.io/badge/PRs-welcome-success?style=flat-square)](https://github.com/nsebhastian/react-chatbox-component/pulls)
 
 Plug and play Chat component for creating React Chat App.
 
@@ -13,6 +17,7 @@ The idea is that you embed this component in your own container, for example a p
 Really, the aim is to make implementing a chat component as quick as possible.  All you need to do is pass an array of `message`s (normally `this.state.messages`, unless you're using hooks):
 
 ```js
+import 'react-chatbox-component/dist/style.css';
 import {ChatBox} from 'react-chatbox-component';
 
 const messages = [
@@ -77,9 +82,10 @@ The ChatBox component has the following API:
 - `typingListener` _(optional)_ _(function)_ - optional function executed when user is typing
 - `typingIndicator`_(optional)_ _(element)_ - JSX element to render at the bottom of chat interface. Used to show that a user is typing
 
-Here is a typical implementation for this component:
+Here is a typical implementation for this component. You need to import the style and the component:
 
 ```js
+import 'react-chatbox-component/dist/style.css';
 import {ChatBox} from 'react-chatbox-component';
 
 <div className='container'>

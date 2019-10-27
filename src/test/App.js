@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { ChatBox } from '../lib';
+import  '../lib/style.css';
 import './style.css';
 
 class App extends React.Component {
@@ -35,7 +36,7 @@ class App extends React.Component {
       },
       {
         "text": "Hello Spiderman, how are you today?",
-        "id": "1",
+        "id": "3",
         "sender": {
           "name": "Ironman",
           "uid": "user1",
